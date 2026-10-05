@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poetra Food - Android Self-Order Restaurant App</title>
+  <meta name="description" content="A modern, clean landing page for Poetra Food, an Android self-ordering tablet application for restaurants and UMKM food businesses.">
+  <meta property="og:title" content="Poetra Food - Android Self-Order Restaurant App">
+  <meta property="og:description" content="A modern, clean landing page for Poetra Food, an Android self-ordering tablet application for restaurants and UMKM food businesses.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- ==================== Header & Navigation ==================== -->
+  <header class="navbar-header">
+    <div class="container">
+      <nav class="navbar" aria-label="Main Navigation">
+        <!-- Brand Logo -->
+        <a href="#home" class="brand-logo" aria-label="Poetra Food Home">
+          <div class="brand-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+              <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+              <line x1="6" y1="1" x2="6" y2="4"></line>
+              <line x1="10" y1="1" x2="10" y2="4"></line>
+              <line x1="14" y1="1" x2="14" y2="4"></line>
+            </svg>
+          </div>
+          <span>Poetra Food<span class="brand-dot">.</span></span>
+        </a>
+
+        <!-- Mobile Navigation Toggle (Pure HTML/CSS) -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu">
+        <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+          <span class="hamburger-line"></span>
+        </label>
+
+        <!-- Navigation Menu -->
+        <div class="nav-menu-wrapper">
+          <ul class="nav-links">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#features" class="nav-link">Features</a></li>
+            <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+            <li><a href="#showcase" class="nav-link">App</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+          <a href="#project" class="btn btn-primary btn-sm">View Project</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==================== Hero Section ==================== -->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Left Column: Copy & Actions -->
+          <div class="hero-content">
+            <div class="hero-badge">
+              <span class="hero-badge-dot"></span>
+              SELF-ORDER RESTAURANT SYSTEM
+            </div>
+            
+            <h1 class="hero-title">
+              Order Food Faster with <span class="text-red">Poetra Food</span>
+            </h1>
+            
+            <p class="hero-desc">
+              A simple self-ordering solution that helps restaurants and UMKM businesses provide a faster and more convenient ordering experience.
+            </p>
+            
+            <div class="hero-actions">
+              <a href="#project" class="btn btn-primary">
+                View Project
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+              <a href="#how-it-works" class="btn btn-secondary">
+                How It Works
+              </a>
+            </div>
+
+            <div class="hero-highlights">
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </div>
+                <span>Android Tablet &amp; Kiosk</span>
+              </div>
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </div>
+                <span>Ideal for UMKM &amp; Cafes</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Hero Tablet Mockup -->
+          <div class="hero-mockup-wrapper">
+            <div class="tablet-device" role="img" aria-label="Poetra Food Tablet Mockup">
+              <!-- Tablet Camera Pin -->
+              <div class="tablet-header-bar">
+                <div class="tablet-camera"></div>
+              </div>
+
+              <!-- Tablet Screen Container -->
+              <div class="tablet-screen">
+                <!-- App System Bar -->
+                <div class="app-status-bar">
+                  <div class="status-table-pill">Table 04</div>
+                  <span>Poetra Food OS • 12:45 PM</span>
+                  <span>100% 🔋</span>
+                </div>
+
+                <!-- App Top Bar -->
+                <div class="app-top-nav">
+                  <div class="app-brand">
+                    <span>🍛</span> Poetra Food
+                  </div>
+                  <div class="app-search">
+                    🔍 Search food, drinks...
+                  </div>
+                </div>
+
+                <!-- App Category Selector -->
+                <div class="app-categories">
+                  <span class="category-chip active">🔥 All Menu</span>
+                  <span class="category-chip">🍚 Rice</span>
+                  <span class="category-chip">🍜 Noodles</span>
+                  <span class="category-chip">🥤 Beverages</span>
+                </div>
+
+                <!-- App Food Grid Mockup -->
+                <div class="app-food-grid">
+                  <!-- Food Card 1 -->
+                  <div class="food-card">
+                    <div class="food-visual" aria-hidden="true">🍛</div>
+                    <div class="food-info">
+                      <div class="food-name">Nasi Goreng Spesial</div>
+                      <div class="food-price">Rp 28.000</div>
+                    </div>
+                    <button class="btn-add-mini" type="button" aria-label="Add Nasi Goreng Spesial to cart">+ Add</button>
+                  </div>
+
+                  <!-- Food Card 2 -->
+                  <div class="food-card">
+                    <div class="food-visual" aria-hidden="true">🍗</div>
+                    <div class="food-info">
+                      <div class="food-name">Ayam Bakar Madu</div>
+                      <div class="food-price">Rp 32.000</div>
+                    </div>
+                    <button class="btn-add-mini" type="button" aria-label="Add Ayam Bakar Madu to cart">+ Add</button>
+                  </div>
+
+                  <!-- Food Card 3 -->
+                  <div class="food-card">
+                    <div class="food-visual" aria-hidden="true">🍜</div>
+                    <div class="food-info">
+                      <div class="food-name">Mie Goreng Seafood</div>
+                      <div class="food-price">Rp 26.000</div>
+                    </div>
+                    <button class="btn-add-mini" type="button" aria-label="Add Mie Goreng Seafood to cart">+ Add</button>
+                  </div>
+
+                  <!-- Food Card 4 -->
+                  <div class="food-card">
+                    <div class="food-visual" aria-hidden="true">🧊</div>
+                    <div class="food-info">
+                      <div class="food-name">Es Teh Manis Jumbo</div>
+                      <div class="food-price">Rp 6.000</div>
+                    </div>
+                    <button class="btn-add-mini" type="button" aria-label="Add Es Teh Manis to cart">+ Add</button>
+                  </div>
+                </div>
+
+                <!-- App Cart Bottom Floating Bar -->
+                <div class="app-cart-bar">
+                  <div class="cart-bar-info">
+                    <span class="cart-badge">3 items</span>
+                    <span>Total: <strong>Rp 66.000</strong></span>
+                  </div>
+                  <div class="btn-view-cart">
+                    🛒 View Cart &rarr;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== Features Section ==================== -->
+    <section id="features" class="section bg-light">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label">Key Features</span>
+          <h2 class="section-title">Simple Ordering Experience</h2>
+          <p class="section-subtitle">
+            Everything your customers need to browse, order, and track meals independently on tablet kiosks.
+          </p>
+        </header>
+
+        <div class="features-grid">
+          <!-- Feature 1: Self Order -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect>
+                <line x1="12" y1="18" x2="12.01" y2="18"></line>
+              </svg>
+            </div>
+            <h3 class="feature-title">Self Order</h3>
+            <p class="feature-desc">
+              Customers can order directly from the tablet at their table without waiting for staff.
+            </p>
+          </article>
+
+          <!-- Feature 2: Digital Menu -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+            </div>
+            <h3 class="feature-title">Digital Menu</h3>
+            <p class="feature-desc">
+              Display food and drinks with images, names, and prices clearly organized in intuitive categories.
+            </p>
+          </article>
+
+          <!-- Feature 3: Easy Cart -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+            </div>
+            <h3 class="feature-title">Easy Cart</h3>
+            <p class="feature-desc">
+              Customers can manage their selected products before ordering, adjust quantities, and review order totals.
+            </p>
+          </article>
+
+          <!-- Feature 4: Order Tracking -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+            <h3 class="feature-title">Order Tracking</h3>
+            <p class="feature-desc">
+              Customers can see their order status in real time from kitchen prep to ready for pickup.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== How It Works Section ==================== -->
+    <section id="how-it-works" class="section">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label">User Journey</span>
+          <h2 class="section-title">How It Works</h2>
+          <p class="section-subtitle">
+            A simple 4-step ordering process designed for quick and effortless self-service dining.
+          </p>
+        </header>
+
+        <div class="steps-grid">
+          <!-- Step 01 -->
+          <div class="step-card">
+            <div class="step-number">01</div>
+            <h3 class="step-title">Choose Menu</h3>
+            <p class="step-desc">
+              Browse available food and drinks by category with photos, descriptions, and pricing.
+            </p>
+          </div>
+
+          <!-- Step 02 -->
+          <div class="step-card">
+            <div class="step-number">02</div>
+            <h3 class="step-title">Add to Cart</h3>
+            <p class="step-desc">
+              Select products and quantities with optional notes or special instructions for the kitchen.
+            </p>
+          </div>
+
+          <!-- Step 03 -->
+          <div class="step-card">
+            <div class="step-number">03</div>
+            <h3 class="step-title">Confirm Order</h3>
+            <p class="step-desc">
+              Review the order summary, select payment method, and confirm the ticket with one tap.
+            </p>
+          </div>
+
+          <!-- Step 04 -->
+          <div class="step-card">
+            <div class="step-number">04</div>
+            <h3 class="step-title">Track Order</h3>
+            <p class="step-desc">
+              Receive an order number and monitor the order status in real time as the kitchen prepares your meal.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== App Showcase Section ==================== -->
+    <section id="showcase" class="section bg-light">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label">Android Tablet Interface</span>
+          <h2 class="section-title">Poetra Food App</h2>
+          <p class="section-subtitle">
+            Designed for Android tablet and kiosk hardware with touch-first ergonomics and responsive layout.
+          </p>
+        </header>
+
+        <div class="showcase-grid">
+          <!-- Screen 1: Menu -->
+          <div class="showcase-item">
+            <div class="showcase-device">
+              <div class="showcase-screen">
+                <div class="screen-header-mini">
+                  <span>🍛 Poetra Food</span>
+                  <span>Table 04</span>
+                </div>
+                <div class="screen-categories-mini">
+                  <span class="chip-mini active">All</span>
+                  <span class="chip-mini">Rice</span>
+                  <span class="chip-mini">Drinks</span>
+                </div>
+                <div class="screen-items-list">
+                  <div class="mini-dish-card">
+                    <div class="mini-dish-info">
+                      <span class="mini-dish-icon">🍛</span>
+                      <div>
+                        <div class="mini-dish-name">Nasi Goreng Spesial</div>
+                        <div class="mini-dish-price">Rp 28.000</div>
+                      </div>
+                    </div>
+                    <span class="mini-add-btn">+ Add</span>
+                  </div>
+                  <div class="mini-dish-card">
+                    <div class="mini-dish-info">
+                      <span class="mini-dish-icon">🍗</span>
+                      <div>
+                        <div class="mini-dish-name">Ayam Bakar Madu</div>
+                        <div class="mini-dish-price">Rp 32.000</div>
+                      </div>
+                    </div>
+                    <span class="mini-add-btn">+ Add</span>
+                  </div>
+                  <div class="mini-dish-card">
+                    <div class="mini-dish-info">
+                      <span class="mini-dish-icon">🥤</span>
+                      <div>
+                        <div class="mini-dish-name">Es Teh Manis</div>
+                        <div class="mini-dish-price">Rp 6.000</div>
+                      </div>
+                    </div>
+                    <span class="mini-add-btn">+ Add</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="showcase-caption">
+              <h4 class="showcase-caption-title">1. Menu Screen</h4>
+              <p class="showcase-caption-text">Interactive catalog with food images, names, and prices.</p>
+            </div>
+          </div>
+
+          <!-- Screen 2: Cart -->
+          <div class="showcase-item">
+            <div class="showcase-device">
+              <div class="showcase-screen">
+                <div class="screen-header-mini">
+                  <span>🛒 Your Order</span>
+                  <span>3 Items</span>
+                </div>
+                <div class="cart-screen-body">
+                  <div class="cart-item-row">
+                    <div>
+                      <div class="cart-item-title">Nasi Goreng Spesial</div>
+                      <div class="cart-item-sub">Extra Pedas • Rp 28.000</div>
+                    </div>
+                    <div class="cart-qty-ctrl">
+                      <span class="btn-qty">-</span>
+                      <strong>1</strong>
+                      <span class="btn-qty">+</span>
+                    </div>
+                  </div>
+                  <div class="cart-item-row">
+                    <div>
+                      <div class="cart-item-title">Es Teh Manis Jumbo</div>
+                      <div class="cart-item-sub">Less Sugar • Rp 12.000</div>
+                    </div>
+                    <div class="cart-qty-ctrl">
+                      <span class="btn-qty">-</span>
+                      <strong>2</strong>
+                      <span class="btn-qty">+</span>
+                    </div>
+                  </div>
+                  <div class="cart-summary-box">
+                    <div class="summary-row">
+                      <span>Subtotal</span>
+                      <span>Rp 40.000</span>
+                    </div>
+                    <div class="summary-row total">
+                      <span>Total Amount</span>
+                      <span>Rp 40.000</span>
+                    </div>
+                  </div>
+                  <div class="btn-checkout-mini">
+                    Confirm &amp; Pay &rarr;
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="showcase-caption">
+              <h4 class="showcase-caption-title">2. Cart Screen</h4>
+              <p class="showcase-caption-text">Review selections, change quantities, and check total.</p>
+            </div>
+          </div>
+
+          <!-- Screen 3: Order Status -->
+          <div class="showcase-item">
+            <div class="showcase-device">
+              <div class="showcase-screen">
+                <div class="screen-header-mini">
+                  <span>📋 Order Status</span>
+                  <span>Live Update</span>
+                </div>
+                <div class="status-screen-body">
+                  <div class="status-badge-live">Status: In Kitchen</div>
+                  <div class="order-ticket-no">#PF-042</div>
+                  <div class="order-sub-table">Table 04 • Estimated: 8-12 mins</div>
+                  
+                  <div class="status-stepper-mini">
+                    <div class="step-row-mini">
+                      <div class="step-indicator-done">✓</div>
+                      <span>Order Received</span>
+                    </div>
+                    <div class="step-row-mini">
+                      <div class="step-indicator-active">●</div>
+                      <span><strong>Cooking in Kitchen</strong></span>
+                    </div>
+                    <div class="step-row-mini">
+                      <div class="step-indicator-pending"></div>
+                      <span style="color: #94A3B8;">Ready for Table</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="showcase-caption">
+              <h4 class="showcase-caption-title">3. Order Status Screen</h4>
+              <p class="showcase-caption-text">Real-time status tracking with order ticket number.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== Restaurant Benefits Section ==================== -->
+    <section id="about" class="section">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label">Empowering F&amp;B Businesses</span>
+          <h2 class="section-title">Made for Restaurants &amp; UMKM</h2>
+        </header>
+
+        <div class="benefits-grid">
+          <!-- Left Column: About Description -->
+          <div class="benefits-content">
+            <p class="benefits-text">
+              Poetra Food is a self-ordering restaurant solution built specifically for culinary businesses and UMKM (micro, small, and medium enterprises). Unlike complex food delivery marketplaces, Poetra Food focuses on streamlining the in-house dining experience.
+            </p>
+            <p class="benefits-text">
+              By replacing paper menus and verbal order-taking with an intuitive Android tablet or kiosk interface, restaurants can serve more guests, avoid costly ordering mistakes, and maintain smooth operations during peak rush hours.
+            </p>
+            <div class="benefits-highlight-box">
+              Built for seamless offline-first stability, low hardware requirements, and minimal staff training.
+            </div>
+          </div>
+
+          <!-- Right Column: Bullet Points -->
+          <div class="benefits-list">
+            <div class="benefit-item">
+              <div class="benefit-check" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <div class="benefit-text-title">Faster customer ordering</div>
+            </div>
+
+            <div class="benefit-item">
+              <div class="benefit-check" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <div class="benefit-text-title">Less queue at the cashier</div>
+            </div>
+
+            <div class="benefit-item">
+              <div class="benefit-check" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <div class="benefit-text-title">Easier order management</div>
+            </div>
+
+            <div class="benefit-item">
+              <div class="benefit-check" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <div class="benefit-text-title">Better customer experience</div>
+            </div>
+
+            <div class="benefit-item">
+              <div class="benefit-check" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <div class="benefit-text-title">Suitable for restaurants and UMKM</div>
+            </div>
+
+            <div class="benefit-item">
+              <div class="benefit-check" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <div class="benefit-text-title">Designed for tablet and kiosk environments</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== Technology Badges Section ==================== -->
+    <section class="tech-section bg-light">
+      <div class="container">
+        <div class="tech-header">
+          <h3 class="tech-title">Built With</h3>
+        </div>
+        <div class="tech-badges-grid">
+          <span class="tech-badge">
+            <span class="tech-badge-dot"></span>
+            Kotlin
+          </span>
+          <span class="tech-badge">
+            <span class="tech-badge-dot"></span>
+            Jetpack Compose
+          </span>
+          <span class="tech-badge">
+            <span class="tech-badge-dot"></span>
+            Material 3
+          </span>
+          <span class="tech-badge">
+            <span class="tech-badge-dot"></span>
+            MVVM
+          </span>
+          <span class="tech-badge">
+            <span class="tech-badge-dot"></span>
+            Room
+          </span>
+          <span class="tech-badge">
+            <span class="tech-badge-dot"></span>
+            REST API
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== Project Information Card ==================== -->
+    <section id="project" class="section">
+      <div class="container">
+        <div class="project-card-wrapper">
+          <div class="project-card">
+            <div class="project-card-header">
+              <h2 class="project-card-title">
+                <span>🍽️</span> Poetra Food
+              </h2>
+              <span class="project-status-badge">MVP / Development</span>
+            </div>
+
+            <div class="project-info-list">
+              <div class="project-info-item">
+                <span class="project-info-label">Type</span>
+                <span class="project-info-value">Android Self-Order Application</span>
+              </div>
+              <div class="project-info-item">
+                <span class="project-info-label">Platform</span>
+                <span class="project-info-value">Android Tablet / Kiosk</span>
+              </div>
+              <div class="project-info-item">
+                <span class="project-info-label">Development</span>
+                <span class="project-info-value">Kotlin + Jetpack Compose</span>
+              </div>
+              <div class="project-info-item">
+                <span class="project-info-label">Architecture</span>
+                <span class="project-info-value">MVVM</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                View Project
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+              <a href="#contact" class="btn btn-secondary">
+                Inquire Implementation
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== Final CTA Section ==================== -->
+    <section id="contact" class="cta-section">
+      <div class="container">
+        <div class="cta-box">
+          <h2 class="cta-title">Build a Better Ordering Experience</h2>
+          <p class="cta-text">
+            Poetra Food is a self-ordering concept designed to help restaurants and UMKM businesses provide a simpler digital ordering experience.
+          </p>
+          <a href="mailto:contact@poetrafood.app" class="btn btn-white">
+            Contact Me
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="22" y1="2" x2="11" y2="13"></line>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== Footer ==================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-brand-title">
+            Poetra Food<span class="brand-dot">.</span>
+          </div>
+          <p class="footer-tagline">
+            Android Self-Order Solution for Restaurants &amp; UMKM
+          </p>
+        </div>
+
+        <nav class="footer-links-group" aria-label="Social and Portfolio Links">
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub</a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn</a>
+          <a href="#home" class="footer-link">Portfolio</a>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Poetra Food. All rights reserved.</p>
+        <a href="#home" class="footer-top-link">
+          Back to Top &uarr;
+        </a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

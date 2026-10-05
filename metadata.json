@@ -1,0 +1,6 @@
+{
+  "name": "Poetra Food - Android Self-Order Restaurant App",
+  "description": "A modern, clean landing page for Poetra Food, an Android self-ordering tablet application for restaurants and UMKM food businesses.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
